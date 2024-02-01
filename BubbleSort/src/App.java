@@ -18,8 +18,8 @@ public class App {
         writeArrayToFile(arr, sortedArrayFile);
         System.out.println("The Sorted array: ");
         printArray(arr);
-        int[] arrFromFile = readFileToArray("input.txt");// the original (unsorted) array is stored in the "input.txt"
-                                                         // file
+        // the original (unsorted) array is stored in the "input.txt" file
+        int[] arrFromFile = readFileToArray("input.txt");
         int[] sortArrFromFile = readFileToArray(sortedArrayFile);
         System.out.println("Array read from file: ");
         printArray(arrFromFile);
